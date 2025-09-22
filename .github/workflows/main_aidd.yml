@@ -52,4 +52,4 @@ jobs:
           app-name: 'AIDD'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BA0FCEB678B04C838A85CC1467B571FA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D180D63DCAE64EDABD131E21BA7044C9 }}
