@@ -1,0 +1,51 @@
+AgentID,ProviderID,AgentCode,AgentName,Channel,Region,CreatedAt,UpdatedAt,ProviderName
+1,1,AGT0001,Randolph and Sons,OTA,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+2,1,AGT0002,"Hodge, Miller and Sanchez",Corporate,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+3,1,AGT0003,TripAdvisor,Affiliate,Central,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+4,1,AGT0004,CheapOair,Hybrid,West,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+5,1,AGT0005,Skyscanner,OTA,North,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+6,1,AGT0006,King-Graves,Corporate,Central,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+7,1,AGT0007,Expedia,Hybrid,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+8,1,AGT0008,"Shaffer, Williamson and Hall",Corporate,West,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+9,1,AGT0009,Riley Ltd,GDS,North,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+10,1,AGT0010,Fox Inc,Affiliate,West,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+11,1,AGT0011,Wright-Brooks,Consolidator,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+12,1,AGT0012,King-Graves,GDS,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+13,1,AGT0013,TripAdvisor,OTA,West,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+14,1,AGT0014,Travelocity,Consolidator,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+15,1,AGT0015,Peterson Ltd,GDS,North,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+16,1,AGT0016,Chen-Jacobson,Hybrid,North,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+17,1,AGT0017,"Harris, Gonzalez and Osborne",OTA,Central,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+18,1,AGT0018,Buchanan Group,GDS,Central,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+19,1,AGT0019,Gomez-Sandoval,Hybrid,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+20,1,AGT0020,Yatra,OTA,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+21,1,AGT0021,Buchanan Group,OTA,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+22,1,AGT0022,Travelocity,Retail,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+23,1,AGT0023,Chen-Jacobson,Affiliate,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+24,1,AGT0024,Fox Inc,Consolidator,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+25,1,AGT0025,Smith-Hart,Affiliate,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+26,1,AGT0026,EaseMyTrip,Hybrid,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+27,1,AGT0027,"Hodge, Miller and Sanchez",Corporate,West,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+28,1,AGT0028,"Harris, Gonzalez and Osborne",Consolidator,Central,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+29,1,AGT0029,Fields-Rollins,Affiliate,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+30,1,AGT0030,TravelGuru,Corporate,North,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+31,1,AGT0031,Smith-Friedman,Retail,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+32,1,AGT0032,Yatra,Corporate,Central,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+33,1,AGT0033,Smith-Friedman,Corporate,West,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+34,1,AGT0034,Decker-Moyer,Affiliate,West,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+35,1,AGT0035,"Johnson, Swanson and Baird",Consolidator,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+36,1,AGT0036,"Hodge, Miller and Sanchez",Affiliate,Central,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+37,1,AGT0037,Peterson Ltd,Affiliate,Central,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+38,1,AGT0038,Gonzalez Inc,Hybrid,West,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+39,1,AGT0039,Gomez-Sandoval,Corporate,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+40,1,AGT0040,Fox-Gray,OTA,North,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+41,1,AGT0041,Randolph and Sons,Corporate,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+42,1,AGT0042,Gonzalez Inc,Hybrid,North,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+43,1,AGT0043,Mcneil-Guerrero,Retail,Central,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+44,1,AGT0044,"King, Bennett and Smith",Hybrid,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+45,1,AGT0045,ClearTrip,Affiliate,North,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+46,1,AGT0046,Walters and Sons,GDS,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+47,1,AGT0047,Randolph and Sons,Consolidator,West,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+48,1,AGT0048,Fox Inc,Retail,North,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+49,1,AGT0049,Peterson Ltd,Hybrid,South,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
+50,1,AGT0050,TripAdvisor,GDS,East,09/22/2025 02:16:30,09/22/2025 02:16:30,Air India
