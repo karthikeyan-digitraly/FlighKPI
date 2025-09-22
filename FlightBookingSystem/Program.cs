@@ -1,4 +1,4 @@
-using FlightBookingSystem.Data;
+﻿using FlightBookingSystem.Data;
 using FlightBookingSystem.IService;
 using FlightBookingSystem.Service;
 using FlightBookingSystem.Services;
@@ -39,12 +39,24 @@ builder.Services.AddFluentMigratorCore()
         .ScanIn(typeof(AppDbContext).Assembly).For.Migrations())
     .AddLogging(lb => lb.AddFluentMigratorConsole());
 
-// **Add controllers**
+// Controllers
 builder.Services.AddControllers();
 
 // Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// ✅ CORS Policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy
+            .AllowAnyOrigin()   // or .WithOrigins("https://yourfrontend.com") for specific domains
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
 
@@ -55,22 +67,23 @@ using (var scope = app.Services.CreateScope())
     runner.MigrateUp();
 }
 
-// Swagger middleware
-if (builder.Configuration.GetValue<bool>("EnableSwagger"))
+// ✅ Always enable Swagger + UI
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Flight Booking API V1");
-    });
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Flight Booking API V1");
+    c.RoutePrefix = string.Empty; // Swagger UI at root (https://localhost:44313/)
+});
 
 app.UseHttpsRedirection();
+
+// ✅ Enable CORS
+app.UseCors("AllowAll");
 
 // Map controllers
 app.MapControllers();
 
-// Minimal API example
+// Example endpoint
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
